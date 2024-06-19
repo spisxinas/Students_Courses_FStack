@@ -1,0 +1,21 @@
+<mvc:View controllerName="project1.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+      <Page title="Student Informations">
+        <content>
+            <List id="productList" items="{mainModel>/GetStudents}">
+                <items>
+                    <ObjectListItem
+                        title= "{mainModel>email}"
+                         >
+                        <attributes>
+                            <ObjectAttribute text="First Name: {mainModel>firstName}" />
+                            <ObjectAttribute text="Last Name: {mainModel>lastName}" />
+                            <ObjectAttribute text="Enrollment Date: {mainModel>dateSignUp}" />
+                        </attributes>  
+                    </ObjectListItem>
+                </items>
+            </List>
+        </content>
+    </Page>
+</mvc:View>

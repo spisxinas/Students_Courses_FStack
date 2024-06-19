@@ -1,0 +1,5 @@
+ID,courseName,coursePrice,publishedStatus
+1,Python Basics,29.99,Published
+2,Data Science 101,39.99,Draft
+3,Machine Learning,49.99,Published
+4,Deep Learning,59.99,Published

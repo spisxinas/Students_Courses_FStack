@@ -1,0 +1,11 @@
+ID,course_ID,student_email
+1,1,johndoe@example.com
+2,2,janedoe@example.com
+3,3,alexsmith@example.com
+4,4,mariasanchez@example.com
+5,5,robertjohnson@example.com
+6,1,janedoe@example.com
+7,3,mariasanchez@example.com
+8,2,robertjohnson@example.com
+9,4,johndoe@example.com
+10,5,alexsmith@example.com
